@@ -6,6 +6,7 @@ import AboutVue from '../views/AboutVuetify.vue'
 import AboutApi from '../views/AboutCompApi.vue'
 import CalcArea from '../views/CalculateArea.vue'
 import Axios from '../views/Axios.vue'
+import QApp from '../views/QuizApp.vue'
 
 
 const router = createRouter({
@@ -45,6 +46,11 @@ const router = createRouter({
       path: '/axios',
       name: 'Axios',
       component: Axios
+    },
+    {
+      path: '/quiz',
+      name: 'Qapp',
+      component: QApp
     },
   ]
 })

@@ -27,11 +27,12 @@
           <v-list-item prepend-icon="mdi-calculator" title="Calculator" value="basicmath" href="/basicMath"></v-list-item>
           <v-list-item prepend-icon="mdi-calculator" title="Calculator for Area" value="aboutapi" href="/calarea"></v-list-item>
           <v-list-item prepend-icon="mdi-api" title="Axios" value="aboutapi" href="/axios"></v-list-item>
+          <v-list-item prepend-icon="mdi-api" title="QuizApp" value="Quiz" href="/quiz"></v-list-item>
           <v-list-item prepend-icon="mdi-vuetify" title="About Vuetify" value="aboutvue" href="/aboutvue"></v-list-item>
           <v-list-item prepend-icon="mdi-api" title="About Composition API" value="aboutapi" href="/aboutapi"></v-list-item>
         </v-list>
       </v-navigation-drawer>
-      <v-main style="height: 250px"></v-main>
+      <v-main></v-main>
 
 </template>
 
